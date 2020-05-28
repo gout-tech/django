@@ -9,4 +9,6 @@ Django 2.2.13 fixes two security issues and a bug in 2.2.12.
 Bugfixes
 ========
 
-* ...
+* Fixed a regression in Django 2.2.12 that affected translation loading for
+  apps providing translations for only a subset of all supported languages
+  (:ticket:`31570`).
